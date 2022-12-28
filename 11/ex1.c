@@ -6,7 +6,8 @@ int main(){
 	a = 1;
 	b = 2;
 
-	printf("a-b : %d...\n", a-b);
+	printf("a-b : %d\n", a - b);
+	printf("a-b : %u\n", a - b);
 
 	if(a - b > 0){
 		printf("a > b\n");
